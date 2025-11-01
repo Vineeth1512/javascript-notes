@@ -85,6 +85,13 @@ console.log('end');
 ```
 
 ---
+console.log("Start");
+
+setTimeout(() => console.log("Timeout"), 0);
+
+Promise.resolve().then(() => console.log("Promise"));
+
+console.log("End");
 
 ## 🔑 Summary
 
@@ -94,4 +101,46 @@ console.log('end');
 
 ---
 
-*Converted to Markdown — ready to preview or export.*
+#### 🔁 Simple Diagram 
+
+Call Stack  <-- Executes code
+    ↑
+Event Loop  <-- Controls execution flow
+    ↓
+Microtask Queue (High Priority: Promises)
+Callback Queue (Low Priority: setTimeout, events)
+
+---
+#### ✅ Example: Why Promises run first?
+
+```javascript
+console.log("Start");
+
+setTimeout(() => console.log("Timeout"), 0);
+
+Promise.resolve().then(() => console.log("Promise"));
+
+console.log("End");
+```
+#### ✅ Output:
+
+```javascript
+Start
+End
+Promise
+Timeout
+```
+📌 Because **Promises (Microtasks)** finish first before **setTimeout (Task queue).**
+
+---
+#### ✅ Real-Time Analogy
+
+- **Call Stack** = Kitchen where food is cooked immediately
+
+- **Web APIs** = Assistants doing background tasks
+
+- **Microtask Queue** = VIP customer orders (served first)
+
+- **Callback Queue** = Normal customer orders
+
+- **Event Loop** = Manager who decides what to serve next
