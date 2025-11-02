@@ -160,3 +160,40 @@ DOM enables **dynamic & interactive** user experiences 🎯
 | Built By    | Browser parsing HTML           |
 | Model       | Tree-based representation      |
 | Key Benefit | Dynamic & interactive webpages |
+
+
+--
+
+
+✅ Everything is a Node  
+✅ Nodes = Objects with properties & methods  
+
+---
+
+## 🔸 Types of Nodes in DOM
+
+| ⚙️ Node Type | 🧱 Example | 📖 Description |
+|--------------|-----------|----------------|
+| Document Node | `document` | Root of DOM |
+| Element Node | `<div>`, `<h1>` | HTML element |
+| Text Node | `"Hello"` | Content inside elements |
+| Attribute Node | `id="main"` | Element attributes |
+| Comment Node | `<!-- Hi -->` | Developer comments |
+
+👉 JavaScript interacts **mainly with Element & Text nodes**
+
+---
+
+## 🆚 window vs document
+
+| Feature | 🌍 window | 📄 document |
+|--------|:--------:|:----------:|
+| Represents | Browser environment | Webpage |
+| Top-level object | ✅ Yes | ❌ No |
+| Common Methods | `alert()`, `setTimeout()` | `getElementById()` |
+| Contains | document | HTML content |
+
+✅ `window.document` = `document` ✔
+
+---
+
