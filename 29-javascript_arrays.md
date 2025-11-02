@@ -1,4 +1,4 @@
-# 🧮 JavaScript Arrays — Complete Notes (5W1H + Examples)
+# 🧮 JavaScript Arrays — 
 
 ## ✅ 1️⃣ What is an Array?
 
