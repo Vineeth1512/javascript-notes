@@ -1,5 +1,5 @@
 
-# ✅ F) Local & Session Storage (Web Storage API)
+# ✅  Local & Session Storage (Web Storage API)
 
 ## 🧠 What is Web Storage API?
 
