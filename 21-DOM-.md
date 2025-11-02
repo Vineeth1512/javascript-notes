@@ -3,9 +3,14 @@
 
 ## 🧠 What is DOM?
 
-* DOM stands for **Document Object Model**
-* It represents a webpage as a **tree of objects (nodes)**
-* Allows JavaScript to **Access, Modify, Add, Delete** elements dynamically ✅
+
+DOM stands for **Document Object Model** and it is a programming interface that represents the webpage as a **tree structure** of objects.
+
+➡️ It allows JavaScript to:
+
+- Access HTML elements
+- Modify content and style
+- Add or remove elements dynamically
 
 > ✅ DOM is a bridge between JavaScript and the webpage UI
 
