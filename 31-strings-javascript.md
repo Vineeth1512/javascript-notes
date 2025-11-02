@@ -1,4 +1,4 @@
-# ✨ JavaScript Strings — Detailed Notes (5W1H + Examples)
+# ✨ JavaScript Strings 
 
 ## ✅ 1️⃣ What is a String?
 A **String** is a **sequence of characters** enclosed in quotes.
