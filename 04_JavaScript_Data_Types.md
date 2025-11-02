@@ -69,6 +69,20 @@ let numbers = [1,2,3,4];                // Array
 function greet(){console.log("Hi");}    // Function
 ```
 ---
+## 🧠 Key Differences 
+| Feature        | Primitive     | Non-Primitive              |
+| -------------- | ------------- | -------------------------- |
+| Memory storage | Stack         | Stack (ref) + Heap (value) |
+| Stored as      | Actual value  | Reference to value         |
+| Mutability     | Immutable     | Mutable                    |
+| Size           | Fixed         | Dynamic                    |
+| Copy behavior  | Value copy    | Reference copy             |
+| Comparison     | Value checked | Reference checked          |
+| Performance    | Fast          | Slower                     |
+
+
+
+
 # 🧭 Summary Table (5W1H Overview)
 
 | 🏷️ Category | 💬 Explanation                                                   |
