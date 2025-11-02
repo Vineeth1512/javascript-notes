@@ -1,5 +1,5 @@
 
-# ✅ JavaScript BOM (Browser Object Model) — Full Detailed Notes
+# ✅ JavaScript BOM (Browser Object Model) 
 
 ## 🧠 What is BOM?
 
@@ -129,13 +129,6 @@ console.log(screen.width, screen.height);
 ```
 
 Useful in responsive behavior or full-screen UI
-
----
-
-## 🔐 Storage Objects (Already Covered)
-
-✔ Local Storage  
-✔ Session Storage  
 
 ---
 
