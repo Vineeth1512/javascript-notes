@@ -27,9 +27,9 @@
 - ➤ [15 — Callback Queue & Microtask Queue](15-Callback-queue-microtask-queue.md)
 - ➤ [16 — JavaScript Runtime Architecture](16-Javascript-runtime-architecture.md)
 - ➤ [17 — Web APIs in JavaScript](17-Web-APIs-in-JavaScript.md)
-- ➤ [18 — AJAX & fetch()](18- AJAX- fetch()-JavaScript.md)
+- ➤ [18 — AJAX & fetch()](18-AJAX-fetch()-JavaScript.md)
 - ➤ [19 — async & await](19-async-await-.md)
-- ➤ [20 — Promise Combinators](20- Promise-Combinators.md)
+- ➤ [20 — Promise Combinators](20-Promise-Combinators.md)
 
 ---
 
@@ -46,8 +46,8 @@
 ---
 
 ### 📦 Data Structures in JS  
-- ➤ [29 — Arrays in JavaScript](29-arrays-javascript .md)
-- ➤ [30 — Objects in JavaScript](30-objects-javascript .md)
+- ➤ [29 — Arrays in JavaScript](29-arrays-javascript.md)
+- ➤ [30 — Objects in JavaScript](30-objects-javascript.md)
 - ➤ [31 — Strings in JavaScript](31-strings-javascript.md)
 - ➤ [32 — Strings Memory Concepts](32-strings_memory_concepts.md)
 
