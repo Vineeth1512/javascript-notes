@@ -1,4 +1,4 @@
-# 🧱 JavaScript Objects — Complete Notes (5W1H + Examples)
+# 🧱 JavaScript Objects 
 
 ## ✅ 1️⃣ What is an Object?
 
